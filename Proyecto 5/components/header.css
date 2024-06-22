@@ -1,0 +1,41 @@
+
+header{   
+    background-color: white;
+    top: 0;
+    position: sticky;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between ;
+    align-items: flex-start;
+    padding: 20px 10px;
+    z-index: 1;
+}
+
+.icon{
+  border: none;
+  background-color: inherit;
+}
+.headerSearch{
+  flex-wrap: nowrap;
+  width: 20px;
+  aspect-ratio: 1/1;
+}
+
+.barraDeNavegacion {
+flex-wrap: nowrap;
+  width: 47%;
+}
+
+.youtubeLogo {
+  flex-wrap: nowrap;
+}
+.iconoYoutube{
+  width: 40%;
+}
+ .menuNavegacion{
+   width: 35%;
+   right: 0;
+ }
+  .icon{
+    flex-wrap: nowrap;
+  }

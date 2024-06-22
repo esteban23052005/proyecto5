@@ -1,0 +1,91 @@
+.footer{
+  background: #57575700;
+  font-family: arial;
+}
+
+.links-information{
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+body {
+font-family: roboto,sans-serif;
+  margin: 0;
+ padding: 0; 
+}
+.piePagina{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.youtube {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e2dfdf;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #171717;
+  display: flex;
+  align-items: center; 
+  height: 1%; 
+  padding: 6%; 
+}
+
+.links { 
+  background-color: #171717;
+  color: #e6e6e6; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 1%; 
+  text-align: center; 
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+  .links {
+    padding: 10px; 
+  }
+}
+
+.informacionRelacionada a {
+  color: #bababa;
+}
+
+.informacionRelacionada a:hover {
+  color: #fff;
+}
+
+.main{
+  display: flex;
+}
+
+input{
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px ;
+}
+
+@media(max-width: 640px){ 
+.main{
+  display: block;
+}
+  .youtubeLogo{
+    height: 50%;
+    width: 50%;
+      }
+  .menuNavegacion{
+    height: 50%;
+    width: 50%;
+  }
+  input{
+    height: 10px;
+    width: 70px;
+  }  
+  
+}

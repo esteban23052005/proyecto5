@@ -1,0 +1,18 @@
+
+.primary{
+  margin: 10px;
+  display: block;
+}
+.reproductorVideo{
+  border-radius: 12px;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.tituloVideo .nav {
+  margin: 0px;
+  padding: 0px;
+}
+.mainDescriptionProfile{
+  display: flex;
+}

@@ -1,0 +1,51 @@
+/*estilos para toda la seccion de videoMiniatura*/
+.videosMiniaturas{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  }
+/*Estilo de contenedor de miniaturas*/
+.Miniaturas{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+/*Estilo de miniaturas*/
+.miniaturaI {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.miniaturaI img{
+  width: 148px;
+  height: 94px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/*configuracion de video*/
+.video-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*Titulo del video*/
+.video-info h3 {
+  font-size: 1em;
+  margin: 0;
+  color: #000;
+}
+
+/*descripcion del video*/
+.video-info p {
+  font-size: 0.9em;
+  color: #000;
+  margin: 2px 0;
+}
